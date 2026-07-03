@@ -1,3 +1,2 @@
-#!/usr/bin/env ruby
-puts ARGV[0].scan(/^h.b$/).join
+echo -e '#!/usr/bin/env ruby\nputs ARGV[0].scan(/\\bh.n\\b/).join' > 5-beginning_and_end.rb
 
